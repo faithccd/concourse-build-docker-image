@@ -26,4 +26,4 @@ ENV PATH $GOROOT/bin:$GOPATH/bin:$PATH
 #RUN go get github.com/tools/godep
 #RUN go get github.com/laher/goxc
 
-RUN apt-get strace -y
+RUN apt-get install strace -y
